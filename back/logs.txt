@@ -1,0 +1,366 @@
+2024-10-26 14:44:59,909 - INFO - Обращение к эндпоинту Товар "create" № 10026b15-7edd-430c-8313-a9bca682ba99  в 26.10.2024 06:44:59
+2024-10-26 14:44:59,910 - WARNING - Обращение к эндпоинту Товар "create" № 10026b15-7edd-430c-8313-a9bca682ba99  от 26.10.2024 06:44:59 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 49, in inner_wrapper\n    with transaction.atomic:\n', "TypeError: 'function' object does not support the context manager protocol\n"]
+2024-10-26 14:44:59,911 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 14:45:56,610 - INFO - F:\python\django\full_stack_test\back\apps\common\decorators\api_decorator.py changed, reloading.
+2024-10-26 14:46:12,308 - INFO - Обращение к эндпоинту Товар "create" № 5aebe48d-5dcd-478f-8f1a-6c00350ba05c  в 26.10.2024 06:46:12
+2024-10-26 14:46:12,309 - INFO - Обращение к эндпоинту product "create" от 26.10.2024 06:46:12 завершено успешно
+2024-10-26 14:46:12,314 - INFO - Добавлен новый товар: {'defaults': OrderedDict({'category': 'electronic', 'name': 'HONOR 50', 'description': 'Смартфон HONOR 50 - новинка этой недели', 'count': 175, 'price': 50500.67})}
+2024-10-26 14:47:00,022 - INFO - F:\python\django\full_stack_test\back\apps\common\decorators\api_decorator.py changed, reloading.
+2024-10-26 14:47:34,818 - INFO - Обращение к эндпоинту Товар "create" № 6a89bd5c-f03d-440c-8946-f64b00ef751f  в 26.10.2024 06:47:34
+2024-10-26 14:47:34,818 - INFO - Обращение к эндпоинту Товар "create" № 6a89bd5c-f03d-440c-8946-f64b00ef751f от 26.10.2024 06:47:34 завершено успешно
+2024-10-26 14:47:34,824 - INFO - Добавлен новый товар: {'defaults': OrderedDict({'category': 'electronic', 'name': 'HONOR 75', 'description': 'Получите невероятный опыт взаимодействия со смартфоном HONOR 75', 'count': 15, 'price': 105645.25})}
+2024-10-26 14:49:39,183 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 14:50:26,009 - INFO - Обращение к эндпоинту Товар "create" № c5f125b4-d102-46bd-9240-36a449b0b3d2  в 26.10.2024 06:50:26
+2024-10-26 14:50:26,009 - INFO - Обращение к эндпоинту Товар "create" № c5f125b4-d102-46bd-9240-36a449b0b3d2 от 26.10.2024 06:50:26 завершено успешно
+2024-10-26 14:50:26,015 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': 'Яйца 1 категории, 10шт', 'description': 'Яйца 1 категории, 10 штук в пластиковой упакове', 'count': 500, 'price': 150.0})
+2024-10-26 14:51:19,766 - INFO - Обращение к эндпоинту Товар "list" № b340b863-1f28-46aa-a058-3befaec1ac9d  в 26.10.2024 06:51:19
+2024-10-26 14:51:19,767 - INFO - Обращение к эндпоинту Товар "list" № b340b863-1f28-46aa-a058-3befaec1ac9d от 26.10.2024 06:51:19 завершено успешно
+2024-10-26 14:51:19,772 - WARNING - Обращение к эндпоинту Товар "list" № b340b863-1f28-46aa-a058-3befaec1ac9d от 26.10.2024 06:51:19 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 40, in list\n    return self._response_utils.ok_response(default_list.serializer.data)\n                                            ^^^^^^^^^^^^^^^^^^^^^^^\n', "AttributeError: 'Response' object has no attribute 'serializer'. Did you mean: 'serialize'?\n"]
+2024-10-26 14:51:19,773 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 14:53:16,608 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 14:53:19,100 - INFO - Обращение к эндпоинту Товар "list" № 08f5b9b7-6604-463c-bc85-24884e1ee65a  в 26.10.2024 06:53:19
+2024-10-26 14:53:19,100 - INFO - Обращение к эндпоинту Товар "list" № 08f5b9b7-6604-463c-bc85-24884e1ee65a от 26.10.2024 06:53:19 завершено успешно
+2024-10-26 14:53:36,275 - INFO - Обращение к эндпоинту Товар "list" № 59f0da03-be35-4574-aec5-6543e8668d1b  в 26.10.2024 06:53:36
+2024-10-26 14:53:36,276 - INFO - Обращение к эндпоинту Товар "list" № 59f0da03-be35-4574-aec5-6543e8668d1b от 26.10.2024 06:53:36 завершено успешно
+2024-10-26 14:53:52,472 - INFO - Обращение к эндпоинту Товар "list" № 471278c4-b510-469d-916d-5ff7548a63e4  в 26.10.2024 06:53:52
+2024-10-26 14:53:52,473 - INFO - Обращение к эндпоинту Товар "list" № 471278c4-b510-469d-916d-5ff7548a63e4 от 26.10.2024 06:53:52 завершено успешно
+2024-10-26 14:56:35,085 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 14:56:42,032 - INFO - Обращение к эндпоинту Товар "partial_update" № 0499dccf-2c6f-4a53-a88c-f4f3e73c5304  в 26.10.2024 06:56:42
+2024-10-26 14:56:42,033 - INFO - Обращение к эндпоинту Товар "partial_update" № 0499dccf-2c6f-4a53-a88c-f4f3e73c5304 от 26.10.2024 06:56:42 завершено успешно
+2024-10-26 14:56:42,034 - WARNING - Обращение к эндпоинту Товар "partial_update" № 0499dccf-2c6f-4a53-a88c-f4f3e73c5304 от 26.10.2024 06:56:42 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 78, in partial_update\n    \'id\': self.kwargs[\'id\'],\n          ~~~~~~~~~~~^^^^^^\n', "KeyError: 'id'\n"]
+2024-10-26 14:56:42,034 - ERROR - Internal Server Error: /backend/api/v1/product/product/9eb3d441-e641-461e-80f4-b1784578ad98/
+2024-10-26 14:58:22,068 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 14:58:24,372 - INFO - Обращение к эндпоинту Товар "partial_update" № 757d5880-77c5-4ecf-a4a1-20def3ed067c  в 26.10.2024 06:58:24
+2024-10-26 14:58:24,373 - INFO - Обращение к эндпоинту Товар "partial_update" № 757d5880-77c5-4ecf-a4a1-20def3ed067c от 26.10.2024 06:58:24 завершено успешно
+2024-10-26 14:58:24,375 - WARNING - Обращение к эндпоинту Товар "partial_update" № 757d5880-77c5-4ecf-a4a1-20def3ed067c от 26.10.2024 06:58:24 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 79, in partial_update\n    \'id\': self.kwargs[\'id\'],\n          ~~~~~~~~~~~^^^^^^\n', "KeyError: 'id'\n"]
+2024-10-26 14:58:24,375 - ERROR - Internal Server Error: /backend/api/v1/product/product/9eb3d441-e641-461e-80f4-b1784578ad98/
+2024-10-26 14:58:35,360 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 14:58:39,589 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 14:58:40,846 - INFO - Обращение к эндпоинту Товар "partial_update" № 204b7ffb-e39d-4c47-bc96-35fc56ac5ca3  в 26.10.2024 06:58:40
+2024-10-26 14:58:40,848 - INFO - Обращение к эндпоинту Товар "partial_update" № 204b7ffb-e39d-4c47-bc96-35fc56ac5ca3 от 26.10.2024 06:58:40 завершено успешно
+2024-10-26 14:58:40,854 - INFO - Товар обновлен: {'category': 'food', 'name': 'Яйца 1 категории, 10шт', 'description': 'Яйца 1 категории, 10 штук в пластиковой упаковке', 'count': 240, 'price': 150.0}
+2024-10-26 15:00:07,794 - INFO - F:\python\django\full_stack_test\back\apps\common\utils\django\response.py changed, reloading.
+2024-10-26 15:00:10,688 - INFO - Обращение к эндпоинту Товар "partial_update" № 78568706-85df-4327-bba3-8b488c524eff  в 26.10.2024 07:00:10
+2024-10-26 15:00:10,689 - INFO - Обращение к эндпоинту Товар "partial_update" № 78568706-85df-4327-bba3-8b488c524eff от 26.10.2024 07:00:10 завершено успешно
+2024-10-26 15:00:10,691 - INFO - Товар обновлен: {'category': 'food', 'name': 'Яйца 1 категории, 10шт', 'description': 'Яйца 1 категории, 10 штук в пластиковой упаковке', 'count': 240, 'price': 150.0}
+2024-10-26 15:00:26,814 - INFO - Обращение к эндпоинту Товар "partial_update" № 120cde29-cf96-4674-bc13-0aa46fa1e0f7  в 26.10.2024 07:00:26
+2024-10-26 15:00:26,815 - INFO - Обращение к эндпоинту Товар "partial_update" № 120cde29-cf96-4674-bc13-0aa46fa1e0f7 от 26.10.2024 07:00:26 завершено успешно
+2024-10-26 15:00:26,820 - INFO - Товар обновлен: {'category': 'food', 'name': 'Яйца 1 категории, 10шт', 'description': 'Яйца 1 категории, 10 штук в пластиковой упаковке', 'count': 100, 'price': 158.32}
+2024-10-26 15:00:52,541 - INFO - Обращение к эндпоинту Товар "destroy" № d1a4d7ce-828d-4cb6-b4d7-4e3a46bcfc67  в 26.10.2024 07:00:52
+2024-10-26 15:00:52,542 - INFO - Обращение к эндпоинту Товар "destroy" № d1a4d7ce-828d-4cb6-b4d7-4e3a46bcfc67 от 26.10.2024 07:00:52 завершено успешно
+2024-10-26 15:00:52,547 - INFO - Объект удален: <Product: Product object (None)>
+2024-10-26 15:01:33,354 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:01:40,436 - INFO - Обращение к эндпоинту Товар "create" № 0ea2a318-f4aa-4a93-8a7c-e70bbf4c7954  в 26.10.2024 07:01:40
+2024-10-26 15:01:40,437 - INFO - Обращение к эндпоинту Товар "create" № 0ea2a318-f4aa-4a93-8a7c-e70bbf4c7954 от 26.10.2024 07:01:40 завершено успешно
+2024-10-26 15:01:40,443 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': 'Яйца 1 категории, 10шт', 'description': 'Яйца 1 категории, 10 штук в пластиковой упакове', 'count': 500, 'price': 150.0})
+2024-10-26 15:01:51,040 - INFO - Обращение к эндпоинту Товар "list" № 4bcaa75b-80a9-45df-a8fb-c09dfeae0f9c  в 26.10.2024 07:01:51
+2024-10-26 15:01:51,041 - INFO - Обращение к эндпоинту Товар "list" № 4bcaa75b-80a9-45df-a8fb-c09dfeae0f9c от 26.10.2024 07:01:51 завершено успешно
+2024-10-26 15:02:01,978 - INFO - Обращение к эндпоинту Товар "destroy" № 9514e312-fa3e-4c2d-a67b-534ac3d6dde5  в 26.10.2024 07:02:01
+2024-10-26 15:02:01,979 - INFO - Обращение к эндпоинту Товар "destroy" № 9514e312-fa3e-4c2d-a67b-534ac3d6dde5 от 26.10.2024 07:02:01 завершено успешно
+2024-10-26 15:02:01,984 - INFO - Объект удален: '<Product: Product object (4720ae9c-4e45-4935-83b3-8b14649baef4)>'
+2024-10-26 15:02:40,250 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:28:48,756 - INFO - Обращение к эндпоинту Товар "create" № 38d65605-1ab0-47ac-a60b-bc68a484b027  в 26.10.2024 07:28:48
+2024-10-26 15:28:48,757 - INFO - Обращение к эндпоинту Товар "create" № 38d65605-1ab0-47ac-a60b-bc68a484b027 от 26.10.2024 07:28:48 завершено успешно
+2024-10-26 15:28:48,763 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:29:40,115 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 15:29:51,259 - INFO - Обращение к эндпоинту Товар "create" № c3cc30d7-129a-4e23-8360-57c40f6e6198  в 26.10.2024 07:29:51
+2024-10-26 15:29:51,260 - INFO - Обращение к эндпоинту Товар "create" № c3cc30d7-129a-4e23-8360-57c40f6e6198 от 26.10.2024 07:29:51 завершено успешно
+2024-10-26 15:29:51,266 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:29:51,268 - WARNING - Обращение к эндпоинту Товар "create" № c3cc30d7-129a-4e23-8360-57c40f6e6198 от 26.10.2024 07:29:51 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 58, in create\n    return self._response_utils.create_success_response(ProductSerializer(proc))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\utils\\django\\response.py", line 35, in create_success_response\n    return Response(\n           ^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\response.py", line 38, in __init__\n    raise AssertionError(msg)\n', 'AssertionError: You passed a Serializer instance as data, but probably meant to pass serialized `.data` or `.error`. representation.\n']
+2024-10-26 15:29:51,269 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 15:30:20,169 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 15:30:23,743 - INFO - Обращение к эндпоинту Товар "create" № 41a390eb-94fe-4be6-a749-d4d88af1ff39  в 26.10.2024 07:30:23
+2024-10-26 15:30:23,744 - INFO - Обращение к эндпоинту Товар "create" № 41a390eb-94fe-4be6-a749-d4d88af1ff39 от 26.10.2024 07:30:23 завершено успешно
+2024-10-26 15:30:23,751 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:30:23,754 - WARNING - Обращение к эндпоинту Товар "create" № 41a390eb-94fe-4be6-a749-d4d88af1ff39 от 26.10.2024 07:30:23 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 446, in get_attribute\n    return get_attribute(instance, self.source_attrs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 99, in get_attribute\n    if is_simple_callable(instance):\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 67, in is_simple_callable\n    raise BuiltinSignatureError(\n', 'rest_framework.fields.BuiltinSignatureError: Built-in function signatures are not inspectable. Wrap the function call in a simple, pure Python function.\n', '\nDuring handling of the above exception, another exception occurred:\n\n', 'Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 58, in create\n    return self._response_utils.create_success_response(ProductSerializer(proc).data)\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 555, in data\n    ret = super().data\n          ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 253, in data\n    self._data = self.to_representation(self.instance)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 509, in to_representation\n    attribute = field.get_attribute(instance)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 458, in get_attribute\n    raise type(exc)(msg)\n', 'rest_framework.fields.BuiltinSignatureError: Field source for `ProductSerializer.count` maps to a built-in function type and is invalid. Define a property or method on the `tuple` instance that wraps the call to the built-in function.\n']
+2024-10-26 15:30:23,755 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 15:31:37,223 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:31:50,858 - INFO - Обращение к эндпоинту Товар "create" № 91c436de-a343-4866-a2bd-0b12cafe5bb8  в 26.10.2024 07:31:50
+2024-10-26 15:31:50,858 - INFO - Обращение к эндпоинту Товар "create" № 91c436de-a343-4866-a2bd-0b12cafe5bb8 от 26.10.2024 07:31:50 завершено успешно
+2024-10-26 15:31:50,865 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:31:50,865 - ERROR - Ошибка в процессе сохранения информации по товару: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\service\\product_service.py", line 70, in save_product\n    return product.__dict__\n           ^^^^^^^^^^^^^^^^\n', "AttributeError: 'tuple' object has no attribute '__dict__'. Did you mean: '__dir__'?\n"]
+2024-10-26 15:31:50,866 - ERROR - Обращение к эндпоинту Товар "create" № 91c436de-a343-4866-a2bd-0b12cafe5bb8 от 26.10.2024 07:31:50 завершено с ошибкой - Ошибка в процессе сохранения товара
+2024-10-26 15:31:50,866 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 15:32:39,712 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:32:43,325 - INFO - Обращение к эндпоинту Товар "create" № ef16fee5-8082-476b-bf30-dc9f5923c2a2  в 26.10.2024 07:32:43
+2024-10-26 15:32:43,326 - INFO - Обращение к эндпоинту Товар "create" № ef16fee5-8082-476b-bf30-dc9f5923c2a2 от 26.10.2024 07:32:43 завершено успешно
+2024-10-26 15:32:43,332 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:32:43,407 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+Traceback (most recent call last):
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelState is not JSON serializable
+2024-10-26 15:33:19,761 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:33:26,248 - INFO - Обращение к эндпоинту Товар "create" № 58b4e934-f9e4-4b6c-9a03-01752ab55db5  в 26.10.2024 07:33:26
+2024-10-26 15:33:26,249 - INFO - Обращение к эндпоинту Товар "create" № 58b4e934-f9e4-4b6c-9a03-01752ab55db5 от 26.10.2024 07:33:26 завершено успешно
+2024-10-26 15:33:26,257 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:33:26,345 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+Traceback (most recent call last):
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelState is not JSON serializable
+2024-10-26 15:34:07,672 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:34:17,194 - INFO - Обращение к эндпоинту Товар "create" № a380b3f9-9e18-4097-b6c7-c2b8921b28a4  в 26.10.2024 07:34:17
+2024-10-26 15:34:17,195 - INFO - Обращение к эндпоинту Товар "create" № a380b3f9-9e18-4097-b6c7-c2b8921b28a4 от 26.10.2024 07:34:17 завершено успешно
+2024-10-26 15:34:17,201 - INFO - Добавлен новый товар: OrderedDict({'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24})
+2024-10-26 15:35:24,608 - INFO - F:\python\django\full_stack_test\back\apps\product\service\product_service.py changed, reloading.
+2024-10-26 15:35:29,628 - INFO - Обращение к эндпоинту Товар "create" № dcbbc719-4c3c-47d5-8241-1f7f54f0e81a  в 26.10.2024 07:35:29
+2024-10-26 15:35:29,629 - INFO - Обращение к эндпоинту Товар "create" № dcbbc719-4c3c-47d5-8241-1f7f54f0e81a от 26.10.2024 07:35:29 завершено успешно
+2024-10-26 15:35:29,635 - INFO - Добавлен новый товар: {'id': UUID('e27e6370-82a9-4247-a5db-d1dcb14bbfe0'), 'created_at': datetime.date(2024, 10, 26), 'updated_at': datetime.date(2024, 10, 26), 'category': 'food', 'name': "Батон 'Французский'", 'description': "Батон пшеничный 'Французский' в полиэтиленовой упаковке", 'count': 225, 'price': 75.24}
+2024-10-26 17:01:39,593 - WARNING - Not Found: /
+2024-10-26 17:02:01,336 - INFO - Обращение к эндпоинту Товар "create" № 23c5dbd5-1e86-4247-8f1d-fba00bebb2d2  в 26.10.2024 09:02:01
+2024-10-26 17:02:01,337 - INFO - Обращение к эндпоинту Товар "create" № 23c5dbd5-1e86-4247-8f1d-fba00bebb2d2 от 26.10.2024 09:02:01 завершено успешно
+2024-10-26 17:02:01,337 - ERROR - Обращение к эндпоинту Товар "create" № 23c5dbd5-1e86-4247-8f1d-fba00bebb2d2 от 26.10.2024 09:02:01 завершено с ошибкой - Ошибка сериализации данных: {'category': [ErrorDetail(string='Значения sdfgdfgdfsg нет среди допустимых вариантов.', code='invalid_choice')]}
+2024-10-26 17:02:01,389 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+Traceback (most recent call last):
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2024-10-26 17:03:37,881 - INFO - F:\python\django\full_stack_test\back\apps\common\decorators\api_decorator.py changed, reloading.
+2024-10-26 17:03:43,463 - INFO - Обращение к эндпоинту Товар "create" № 5a746d40-819d-4e3d-a9e2-75ade1a083bd  в 26.10.2024 09:03:43
+2024-10-26 17:03:43,465 - INFO - Обращение к эндпоинту Товар "create" № 5a746d40-819d-4e3d-a9e2-75ade1a083bd от 26.10.2024 09:03:43 завершено успешно
+2024-10-26 17:03:43,466 - ERROR - Обращение к эндпоинту Товар "create" № 5a746d40-819d-4e3d-a9e2-75ade1a083bd от 26.10.2024 09:03:43 завершено с ошибкой - Ошибка сериализации данных: {'category': [ErrorDetail(string='Значения sdfgdfgdfsg нет среди допустимых вариантов.', code='invalid_choice')]}
+2024-10-26 17:03:43,467 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 17:56:12,064 - INFO - Обращение к эндпоинту Товар "list" № 9bbbb754-6e23-4e03-9a60-4a62bd836dc4  в 26.10.2024 09:56:12
+2024-10-26 17:56:12,065 - INFO - Обращение к эндпоинту Товар "list" № 9bbbb754-6e23-4e03-9a60-4a62bd836dc4 от 26.10.2024 09:56:12 завершено успешно
+2024-10-26 18:02:04,418 - INFO - Обращение к эндпоинту Товар "list" № 2891787b-4a5a-447a-a47e-bf3a49356943  в 26.10.2024 10:02:04
+2024-10-26 18:02:04,422 - INFO - Обращение к эндпоинту Товар "list" № 2891787b-4a5a-447a-a47e-bf3a49356943 от 26.10.2024 10:02:04 завершено успешно
+2024-10-26 18:03:35,985 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:03:41,779 - INFO - Обращение к эндпоинту Товар "list" № 05c0d4b6-cbbb-4f99-8466-bfafe9433879  в 26.10.2024 10:03:41
+2024-10-26 18:03:41,780 - INFO - Обращение к эндпоинту Товар "list" № 05c0d4b6-cbbb-4f99-8466-bfafe9433879 от 26.10.2024 10:03:41 завершено успешно
+2024-10-26 18:03:42,922 - WARNING - Обращение к эндпоинту Товар "list" № 05c0d4b6-cbbb-4f99-8466-bfafe9433879 от 26.10.2024 10:03:41 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 40, in list\n    default_list = super(ProductViewSet, self).list(request, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\mixins.py", line 46, in list\n    return Response(serializer.data)\n                    ^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 768, in data\n    ret = super().data\n          ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 253, in data\n    self._data = self.to_representation(self.instance)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 687, in to_representation\n    self.child.to_representation(item) for item in iterable\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 522, in to_representation\n    ret[field.field_name] = field.to_representation(attribute)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1187, in to_representation\n    value = self.enforce_timezone(value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1135, in enforce_timezone\n    if timezone.is_aware(value):\n       ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\django\\utils\\timezone.py", line 248, in is_aware\n    return value.utcoffset() is not None\n           ^^^^^^^^^^^^^^^\n', "AttributeError: 'datetime.date' object has no attribute 'utcoffset'\n"]
+2024-10-26 18:03:42,923 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 18:04:20,591 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:04:22,796 - INFO - Обращение к эндпоинту Товар "list" № 6a0de2e4-0862-4e86-83f5-ffda611ae498  в 26.10.2024 10:04:22
+2024-10-26 18:04:22,797 - INFO - Обращение к эндпоинту Товар "list" № 6a0de2e4-0862-4e86-83f5-ffda611ae498 от 26.10.2024 10:04:22 завершено успешно
+2024-10-26 18:04:22,854 - WARNING - Обращение к эндпоинту Товар "list" № 6a0de2e4-0862-4e86-83f5-ffda611ae498 от 26.10.2024 10:04:22 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 40, in list\n    default_list = super(ProductViewSet, self).list(request, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\mixins.py", line 46, in list\n    return Response(serializer.data)\n                    ^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 768, in data\n    ret = super().data\n          ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 253, in data\n    self._data = self.to_representation(self.instance)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 687, in to_representation\n    self.child.to_representation(item) for item in iterable\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 522, in to_representation\n    ret[field.field_name] = field.to_representation(attribute)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1187, in to_representation\n    value = self.enforce_timezone(value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1135, in enforce_timezone\n    if timezone.is_aware(value):\n       ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\django\\utils\\timezone.py", line 248, in is_aware\n    return value.utcoffset() is not None\n           ^^^^^^^^^^^^^^^\n', "AttributeError: 'datetime.date' object has no attribute 'utcoffset'\n"]
+2024-10-26 18:04:22,855 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 18:04:51,720 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:04:59,629 - INFO - Обращение к эндпоинту Товар "list" № d99c2f31-e5ef-463f-8e00-311ce0cc8e41  в 26.10.2024 10:04:59
+2024-10-26 18:04:59,633 - INFO - Обращение к эндпоинту Товар "list" № d99c2f31-e5ef-463f-8e00-311ce0cc8e41 от 26.10.2024 10:04:59 завершено успешно
+2024-10-26 18:04:59,721 - WARNING - Обращение к эндпоинту Товар "list" № d99c2f31-e5ef-463f-8e00-311ce0cc8e41 от 26.10.2024 10:04:59 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 40, in list\n    default_list = super(ProductViewSet, self).list(request, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\mixins.py", line 46, in list\n    return Response(serializer.data)\n                    ^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 768, in data\n    ret = super().data\n          ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 253, in data\n    self._data = self.to_representation(self.instance)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 687, in to_representation\n    self.child.to_representation(item) for item in iterable\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 522, in to_representation\n    ret[field.field_name] = field.to_representation(attribute)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1187, in to_representation\n    value = self.enforce_timezone(value)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1135, in enforce_timezone\n    if timezone.is_aware(value):\n       ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\django\\utils\\timezone.py", line 248, in is_aware\n    return value.utcoffset() is not None\n           ^^^^^^^^^^^^^^^\n', "AttributeError: 'datetime.date' object has no attribute 'utcoffset'\n"]
+2024-10-26 18:04:59,721 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 18:05:21,145 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:05:23,992 - INFO - Обращение к эндпоинту Товар "list" № 3ef410c2-2871-4741-98cb-355d45259de1  в 26.10.2024 10:05:23
+2024-10-26 18:05:23,995 - INFO - Обращение к эндпоинту Товар "list" № 3ef410c2-2871-4741-98cb-355d45259de1 от 26.10.2024 10:05:23 завершено успешно
+2024-10-26 18:06:24,676 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:07:02,334 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:07:38,827 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:07:43,153 - INFO - Обращение к эндпоинту Товар "list" № de4e2a8f-ba2e-43fb-953e-6cfbc76bd03e  в 26.10.2024 10:07:43
+2024-10-26 18:07:43,154 - INFO - Обращение к эндпоинту Товар "list" № de4e2a8f-ba2e-43fb-953e-6cfbc76bd03e от 26.10.2024 10:07:43 завершено успешно
+2024-10-26 18:07:43,159 - WARNING - Обращение к эндпоинту Товар "list" № de4e2a8f-ba2e-43fb-953e-6cfbc76bd03e от 26.10.2024 10:07:43 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 40, in list\n    default_list = super(ProductViewSet, self).list(request, *args, **kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\mixins.py", line 46, in list\n    return Response(serializer.data)\n                    ^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 768, in data\n    ret = super().data\n          ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 253, in data\n    self._data = self.to_representation(self.instance)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 687, in to_representation\n    self.child.to_representation(item) for item in iterable\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 522, in to_representation\n    ret[field.field_name] = field.to_representation(attribute)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\fields.py", line 1838, in to_representation\n    return method(value)\n           ^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\serializers\\product_serializer.py", line 18, in get_category\n    for category in ProductCategory:\n                    ^^^^^^^^^^^^^^^\n', "NameError: name 'ProductCategory' is not defined\n"]
+2024-10-26 18:07:43,159 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 18:07:55,402 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:07:57,407 - INFO - Обращение к эндпоинту Товар "list" № cc1d3ae8-b404-4b42-a7aa-39c68b6e6589  в 26.10.2024 10:07:57
+2024-10-26 18:07:57,408 - INFO - Обращение к эндпоинту Товар "list" № cc1d3ae8-b404-4b42-a7aa-39c68b6e6589 от 26.10.2024 10:07:57 завершено успешно
+2024-10-26 18:08:09,773 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 18:08:11,502 - INFO - Обращение к эндпоинту Товар "list" № 7181d575-0d72-499a-a5fe-70fb82881225  в 26.10.2024 10:08:11
+2024-10-26 18:08:11,502 - INFO - Обращение к эндпоинту Товар "list" № 7181d575-0d72-499a-a5fe-70fb82881225 от 26.10.2024 10:08:11 завершено успешно
+2024-10-26 18:08:42,993 - INFO - F:\python\django\full_stack_test\back\apps\product\consts\product_category.py changed, reloading.
+2024-10-26 18:09:09,858 - INFO - F:\python\django\full_stack_test\back\apps\product\models\product.py changed, reloading.
+2024-10-26 18:09:47,091 - WARNING - Not Found: /favicon.ico
+2024-10-26 18:11:03,958 - INFO - Обращение к эндпоинту Товар "list" № b2db25ab-abe1-430b-b46f-28a2d5e40bf4  в 26.10.2024 10:11:03
+2024-10-26 18:11:03,959 - INFO - Обращение к эндпоинту Товар "list" № b2db25ab-abe1-430b-b46f-28a2d5e40bf4 от 26.10.2024 10:11:03 завершено успешно
+2024-10-26 18:11:21,143 - INFO - Обращение к эндпоинту Товар "list" № cb8967df-b3a2-42f3-958c-5a60b9311c04  в 26.10.2024 10:11:21
+2024-10-26 18:11:21,144 - INFO - Обращение к эндпоинту Товар "list" № cb8967df-b3a2-42f3-958c-5a60b9311c04 от 26.10.2024 10:11:21 завершено успешно
+2024-10-26 18:12:17,577 - INFO - Обращение к эндпоинту Товар "list" № 9f22b389-aebe-487a-ae5a-1ca8198c0420  в 26.10.2024 10:12:17
+2024-10-26 18:12:17,578 - INFO - Обращение к эндпоинту Товар "list" № 9f22b389-aebe-487a-ae5a-1ca8198c0420 от 26.10.2024 10:12:17 завершено успешно
+2024-10-26 18:12:18,813 - INFO - Обращение к эндпоинту Товар "list" № 14b4ed2c-c1a7-49f2-9722-95985c9c6527  в 26.10.2024 10:12:18
+2024-10-26 18:12:18,813 - INFO - Обращение к эндпоинту Товар "list" № 14b4ed2c-c1a7-49f2-9722-95985c9c6527 от 26.10.2024 10:12:18 завершено успешно
+2024-10-26 18:19:01,288 - INFO - Обращение к эндпоинту Товар "list" № 4349ce27-a06f-4970-8169-f472f329d61e  в 26.10.2024 10:19:01
+2024-10-26 18:19:01,290 - INFO - Обращение к эндпоинту Товар "list" № 4349ce27-a06f-4970-8169-f472f329d61e от 26.10.2024 10:19:01 завершено успешно
+2024-10-26 18:19:04,988 - INFO - Обращение к эндпоинту Товар "list" № 30a862e4-c99a-414d-a7d0-64e9e270008a  в 26.10.2024 10:19:04
+2024-10-26 18:19:04,989 - INFO - Обращение к эндпоинту Товар "list" № 30a862e4-c99a-414d-a7d0-64e9e270008a от 26.10.2024 10:19:04 завершено успешно
+2024-10-26 18:29:21,715 - INFO - Обращение к эндпоинту Товар "list" № fd82d81a-2291-4374-a32d-3857ef9e030d  в 26.10.2024 10:29:21
+2024-10-26 18:29:21,715 - INFO - Обращение к эндпоинту Товар "list" № fd82d81a-2291-4374-a32d-3857ef9e030d от 26.10.2024 10:29:21 завершено успешно
+2024-10-26 18:34:06,750 - INFO - Обращение к эндпоинту Товар "list" № a03bd943-7625-4f8b-8925-d3a8d179152d  в 26.10.2024 10:34:06
+2024-10-26 18:34:06,751 - INFO - Обращение к эндпоинту Товар "list" № a03bd943-7625-4f8b-8925-d3a8d179152d от 26.10.2024 10:34:06 завершено успешно
+2024-10-26 18:34:13,709 - INFO - Обращение к эндпоинту Товар "list" № 8212c940-a96f-4915-959d-86ef3611e2a9  в 26.10.2024 10:34:13
+2024-10-26 18:34:13,710 - INFO - Обращение к эндпоинту Товар "list" № 8212c940-a96f-4915-959d-86ef3611e2a9 от 26.10.2024 10:34:13 завершено успешно
+2024-10-26 18:35:37,251 - INFO - Обращение к эндпоинту Товар "list" № e4e4663a-3e05-4f06-9833-9c4978564138  в 26.10.2024 10:35:37
+2024-10-26 18:35:37,251 - INFO - Обращение к эндпоинту Товар "list" № e4e4663a-3e05-4f06-9833-9c4978564138 от 26.10.2024 10:35:37 завершено успешно
+2024-10-26 18:35:40,977 - INFO - Обращение к эндпоинту Товар "list" № bd6a84c9-3e66-4059-aea9-b4628474e9e2  в 26.10.2024 10:35:40
+2024-10-26 18:35:40,978 - INFO - Обращение к эндпоинту Товар "list" № bd6a84c9-3e66-4059-aea9-b4628474e9e2 от 26.10.2024 10:35:40 завершено успешно
+2024-10-26 18:36:58,987 - INFO - Обращение к эндпоинту Товар "list" № 1331ebbc-b9a0-47f5-91a4-c7a23473d978  в 26.10.2024 10:36:58
+2024-10-26 18:36:58,988 - INFO - Обращение к эндпоинту Товар "list" № 1331ebbc-b9a0-47f5-91a4-c7a23473d978 от 26.10.2024 10:36:58 завершено успешно
+2024-10-26 19:01:21,749 - INFO - Обращение к эндпоинту Товар "list" № be339447-0255-4867-91db-4fcce27f237c  в 26.10.2024 11:01:21
+2024-10-26 19:01:21,750 - INFO - Обращение к эндпоинту Товар "list" № be339447-0255-4867-91db-4fcce27f237c от 26.10.2024 11:01:21 завершено успешно
+2024-10-26 19:01:56,403 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 19:03:50,816 - INFO - Обращение к эндпоинту Товар "list" № d60a0a14-a8a7-4d8b-88f2-bfea28ee3b99  в 26.10.2024 11:03:50
+2024-10-26 19:03:50,818 - INFO - Обращение к эндпоинту Товар "list" № d60a0a14-a8a7-4d8b-88f2-bfea28ee3b99 от 26.10.2024 11:03:50 завершено успешно
+2024-10-26 19:04:13,552 - ERROR - Internal Server Error: /backend/api/v1/product/product
+Traceback (most recent call last):
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\python\django\full_stack_test\back\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/backend/api/v1/product/product/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2024-10-26 19:04:35,591 - INFO - Обращение к эндпоинту Товар "list" № 1a2cb7d3-e5ec-4104-ae54-96f03cb030d8  в 26.10.2024 11:04:35
+2024-10-26 19:04:35,592 - INFO - Обращение к эндпоинту Товар "list" № 1a2cb7d3-e5ec-4104-ae54-96f03cb030d8 от 26.10.2024 11:04:35 завершено успешно
+2024-10-26 19:04:39,095 - INFO - Обращение к эндпоинту Товар "list" № 9a7213ce-1ae3-45c3-b519-6fcab09e5444  в 26.10.2024 11:04:39
+2024-10-26 19:04:39,095 - INFO - Обращение к эндпоинту Товар "list" № 9a7213ce-1ae3-45c3-b519-6fcab09e5444 от 26.10.2024 11:04:39 завершено успешно
+2024-10-26 19:05:43,118 - INFO - Обращение к эндпоинту Товар "create" № 5374af8d-e4ea-49ce-b96d-eebe38d7b4a8  в 26.10.2024 11:05:43
+2024-10-26 19:05:43,119 - INFO - Обращение к эндпоинту Товар "create" № 5374af8d-e4ea-49ce-b96d-eebe38d7b4a8 от 26.10.2024 11:05:43 завершено успешно
+2024-10-26 19:05:43,122 - WARNING - Обращение к эндпоинту Товар "create" № 5374af8d-e4ea-49ce-b96d-eebe38d7b4a8 от 26.10.2024 11:05:43 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 55, in create\n    serialize = ProductCreateUpdateSerializer(data=request.data)\n                                                   ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\request.py", line 216, in data\n    self._load_data_and_files()\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\request.py", line 279, in _load_data_and_files\n    self._data, self._files = self._parse()\n                              ^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\request.py", line 351, in _parse\n    raise exceptions.UnsupportedMediaType(media_type)\n', 'rest_framework.exceptions.UnsupportedMediaType: Неподдерживаемый тип данных "text/plain;charset=UTF-8" в запросе.\n']
+2024-10-26 19:05:43,122 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 19:07:56,375 - INFO - Обращение к эндпоинту Товар "create" № b476556d-5350-4c74-853b-d3d0c222c887  в 26.10.2024 11:07:56
+2024-10-26 19:07:56,375 - INFO - Обращение к эндпоинту Товар "create" № b476556d-5350-4c74-853b-d3d0c222c887 от 26.10.2024 11:07:56 завершено успешно
+2024-10-26 19:07:56,376 - WARNING - Обращение к эндпоинту Товар "create" № b476556d-5350-4c74-853b-d3d0c222c887 от 26.10.2024 11:07:56 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 55, in create\n    serialize = ProductCreateUpdateSerializer(data=request.data)\n                                                   ^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\request.py", line 216, in data\n    self._load_data_and_files()\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\request.py", line 279, in _load_data_and_files\n    self._data, self._files = self._parse()\n                              ^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\request.py", line 351, in _parse\n    raise exceptions.UnsupportedMediaType(media_type)\n', 'rest_framework.exceptions.UnsupportedMediaType: Неподдерживаемый тип данных "text/plain;charset=UTF-8" в запросе.\n']
+2024-10-26 19:07:56,377 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 19:08:26,259 - INFO - Обращение к эндпоинту Товар "list" № fccff459-8ebc-4f9b-857e-e9c53dc45aa4  в 26.10.2024 11:08:26
+2024-10-26 19:08:26,260 - INFO - Обращение к эндпоинту Товар "list" № fccff459-8ebc-4f9b-857e-e9c53dc45aa4 от 26.10.2024 11:08:26 завершено успешно
+2024-10-26 19:08:26,703 - INFO - Обращение к эндпоинту Товар "list" № 1ebc5e0d-4d26-4c95-9e5b-9f9afd857e2b  в 26.10.2024 11:08:26
+2024-10-26 19:08:26,704 - INFO - Обращение к эндпоинту Товар "list" № 1ebc5e0d-4d26-4c95-9e5b-9f9afd857e2b от 26.10.2024 11:08:26 завершено успешно
+2024-10-26 19:09:17,900 - INFO - Обращение к эндпоинту Товар "create" № e7a97179-e090-459a-8a9e-cce16e90f631  в 26.10.2024 11:09:17
+2024-10-26 19:09:17,901 - INFO - Обращение к эндпоинту Товар "create" № e7a97179-e090-459a-8a9e-cce16e90f631 от 26.10.2024 11:09:17 завершено успешно
+2024-10-26 19:09:17,903 - WARNING - Обращение к эндпоинту Товар "create" № e7a97179-e090-459a-8a9e-cce16e90f631 от 26.10.2024 11:09:17 завершено с ошибкой - Произошла системная ошибка: ['Traceback (most recent call last):\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\common\\decorators\\api_decorator.py", line 54, in inner_wrapper\n    return func(request, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\apps\\product\\api\\product_api.py", line 56, in create\n    if serialize.is_valid():\n       ^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 227, in is_valid\n    self._validated_data = self.run_validation(self.initial_data)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 426, in run_validation\n    value = self.to_internal_value(data)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 479, in to_internal_value\n    for field in fields:\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 362, in _writable_fields\n    for field in self.fields.values():\n                 ^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\django\\utils\\functional.py", line 48, in __get__\n    res = instance.__dict__[self.name] = self.func(instance)\n                                         ^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 356, in fields\n    for key, value in self.get_fields().items():\n                      ^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 1052, in get_fields\n    field_names = self.get_field_names(declared_fields, info)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "F:\\python\\django\\full_stack_test\\back\\venv\\Lib\\site-packages\\rest_framework\\serializers.py", line 1164, in get_field_names\n    assert field_name not in self._declared_fields, (\n', "AssertionError: Cannot both declare the field 'created_at' and include it in the ProductCreateUpdateSerializer 'exclude' option. Remove the field or, if inherited from a parent serializer, disable with `created_at = None`.\n"]
+2024-10-26 19:09:17,903 - ERROR - Internal Server Error: /backend/api/v1/product/product/
+2024-10-26 19:10:53,770 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 19:10:55,675 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 19:11:15,380 - INFO - Обращение к эндпоинту Товар "create" № efbd9be2-a78c-4990-a8fa-84aee7419507  в 26.10.2024 11:11:15
+2024-10-26 19:11:15,382 - INFO - Обращение к эндпоинту Товар "create" № efbd9be2-a78c-4990-a8fa-84aee7419507 от 26.10.2024 11:11:15 завершено успешно
+2024-10-26 19:11:15,383 - ERROR - Обращение к эндпоинту Товар "create" № efbd9be2-a78c-4990-a8fa-84aee7419507 от 26.10.2024 11:11:15 завершено с ошибкой - Ошибка сериализации данных: {'price': [ErrorDetail(string='Требуется численное значение.', code='invalid')]}
+2024-10-26 19:11:15,383 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 19:13:10,209 - INFO - F:\python\django\full_stack_test\back\apps\common\decorators\api_decorator.py changed, reloading.
+2024-10-26 19:14:00,716 - INFO - Обращение к эндпоинту Товар "create" № fb4fd9b3-fe0f-40a2-85d2-3e9f742ae806  в 26.10.2024 11:14:00
+2024-10-26 19:14:00,720 - ERROR - Поле модели товара "category" не найдено в полученном объекте: OrderedDict({'name': 'Виски', 'description': 'Вкуснейший виски во вселенной', 'count': 150, 'price': 12750.5})
+2024-10-26 19:14:00,720 - WARNING - Обращение к эндпоинту Товар "create" № fb4fd9b3-fe0f-40a2-85d2-3e9f742ae806 от 26.10.2024 11:14:00 завершено с ошибкой - Получены не валидные данные
+2024-10-26 19:14:00,721 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 19:15:46,541 - INFO - F:\python\django\full_stack_test\back\apps\product\api\product_api.py changed, reloading.
+2024-10-26 19:17:30,048 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 19:17:43,010 - INFO - Обращение к эндпоинту Товар "create" № 727b5ac8-6903-4805-bf1d-27ea0d0ed7ce  в 26.10.2024 11:17:43
+2024-10-26 19:17:43,013 - ERROR - Поле модели товара "category" не найдено в полученном объекте: OrderedDict({'name': 'ывафвапап', 'description': 'вапфпфывап', 'count': 150, 'price': 15650.45})
+2024-10-26 19:17:43,013 - WARNING - Обращение к эндпоинту Товар "create" № 727b5ac8-6903-4805-bf1d-27ea0d0ed7ce от 26.10.2024 11:17:43 завершено с ошибкой - Получены не валидные данные
+2024-10-26 19:17:43,014 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 19:18:04,490 - INFO - F:\python\django\full_stack_test\back\apps\product\serializers\product_serializer.py changed, reloading.
+2024-10-26 19:18:17,666 - INFO - Обращение к эндпоинту Товар "create" № b3aac29a-a120-43bf-a3b2-f57fd7e66c92  в 26.10.2024 11:18:17
+2024-10-26 19:18:17,670 - ERROR - Обращение к эндпоинту Товар "create" № b3aac29a-a120-43bf-a3b2-f57fd7e66c92 от 26.10.2024 11:18:17 завершено с ошибкой - Ошибка сериализации данных: {'count': [ErrorDetail(string='Введите правильное число.', code='invalid')]}
+2024-10-26 19:18:17,671 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 19:20:13,401 - INFO - Обращение к эндпоинту Товар "list" № 2c463b51-af95-479f-8890-975669b680a0  в 26.10.2024 11:20:13
+2024-10-26 19:20:16,395 - INFO - Обращение к эндпоинту Товар "list" № cf1f48ab-561a-498b-8ae4-855defb269d0  в 26.10.2024 11:20:16
+2024-10-26 19:21:30,158 - INFO - Обращение к эндпоинту Товар "list" № 2a47fc78-d20c-474d-ac45-ec149f77f3d0  в 26.10.2024 11:21:30
+2024-10-26 19:24:06,772 - INFO - Обращение к эндпоинту Товар "list" № 9b824ab8-7425-4324-982b-123b3835c012  в 26.10.2024 11:24:06
+2024-10-26 19:24:07,840 - INFO - Обращение к эндпоинту Товар "list" № 1773d672-c546-4d94-b600-8ec0c86feb8f  в 26.10.2024 11:24:07
+2024-10-26 19:24:46,666 - INFO - Обращение к эндпоинту Товар "list" № e664c288-05ce-41c9-a4db-c25e789a0ef6  в 26.10.2024 11:24:46
+2024-10-26 19:24:55,422 - INFO - Обращение к эндпоинту Товар "list" № d425a8af-94cc-4f96-aef4-f91fd429dc64  в 26.10.2024 11:24:55
+2024-10-26 19:25:21,356 - INFO - Обращение к эндпоинту Товар "create" № fb6625ce-8bf6-4548-b793-cf02d410f25c  в 26.10.2024 11:25:21
+2024-10-26 19:25:21,357 - ERROR - Обращение к эндпоинту Товар "create" № fb6625ce-8bf6-4548-b793-cf02d410f25c от 26.10.2024 11:25:21 завершено с ошибкой - Ошибка сериализации данных: {'count': [ErrorDetail(string='Введите правильное число.', code='invalid')], 'price': [ErrorDetail(string='Требуется численное значение.', code='invalid')]}
+2024-10-26 19:25:21,357 - WARNING - Bad Request: /backend/api/v1/product/product/
+2024-10-26 19:26:19,989 - INFO - Обращение к эндпоинту Товар "create" № 3f9cb4ea-7336-4031-ad0e-d1bbbe27a797  в 26.10.2024 11:26:19
+2024-10-26 19:26:19,995 - INFO - Добавлен новый товар: {'id': UUID('f3fb1635-f530-4a59-a84b-301a8fb0cea3'), 'created_at': datetime.date(2024, 10, 26), 'updated_at': datetime.date(2024, 10, 26), 'category': 'Алкоголь', 'name': 'Виски', 'description': 'виски', 'count': 15, 'price': 12560.67}
+2024-10-26 19:26:20,030 - INFO - Обращение к эндпоинту Товар "list" № b1a3ef41-8565-4a02-9268-0f748e344a90  в 26.10.2024 11:26:20
+2024-10-26 19:27:55,248 - INFO - Обращение к эндпоинту Товар "list" № b9e783ee-6c53-4d73-adf5-bb7b19f30154  в 26.10.2024 11:27:55
+2024-10-26 19:27:55,256 - INFO - Обращение к эндпоинту Товар "list" № fddefd64-746e-4a19-9fbe-72a09ee2107f  в 26.10.2024 11:27:55
+2024-10-26 19:27:57,445 - INFO - Обращение к эндпоинту Товар "list" № 799d7d9e-f8ca-4d62-ae4c-a1583327effb  в 26.10.2024 11:27:57
+2024-10-26 19:28:17,377 - INFO - Обращение к эндпоинту Товар "list" № 9dcd0cb4-8ee6-44b7-8e93-cc1800b5eb94  в 26.10.2024 11:28:17
+2024-10-26 19:28:32,226 - INFO - Обращение к эндпоинту Товар "list" № f9d4fc7f-8eb7-4e86-a2e7-bc90fa7dabad  в 26.10.2024 11:28:32
+2024-10-26 19:28:46,810 - INFO - Обращение к эндпоинту Товар "list" № 63898d62-521f-42e4-a5f2-088261321d17  в 26.10.2024 11:28:46
+2024-10-26 19:29:05,323 - INFO - Обращение к эндпоинту Товар "list" № 4602af73-4ef8-4c1a-9476-1b83aa800985  в 26.10.2024 11:29:05
+2024-10-26 19:29:05,329 - INFO - Обращение к эндпоинту Товар "list" № 589d53a1-2f88-4a79-9481-b9f3153b79a3  в 26.10.2024 11:29:05
+2024-10-26 19:29:07,111 - INFO - Обращение к эндпоинту Товар "list" № ad8455af-965d-4a66-af61-6224d846dedc  в 26.10.2024 11:29:07
+2024-10-26 19:29:41,688 - INFO - Обращение к эндпоинту Товар "create" № cc16c59c-b5c9-41f8-b82a-bb12461b8d95  в 26.10.2024 11:29:41
+2024-10-26 19:29:41,694 - INFO - Добавлен новый товар: {'id': UUID('19410109-8002-46a5-a515-b7c2214d11a1'), 'created_at': datetime.date(2024, 10, 26), 'updated_at': datetime.date(2024, 10, 26), 'category': 'Продукты', 'name': 'Сливочное масло', 'description': 'Самый дорогой товар во вселенной', 'count': 150, 'price': 75.56}
+2024-10-26 19:29:41,722 - INFO - Обращение к эндпоинту Товар "list" № 8a5d4e35-7004-4c4b-a18e-b557f9286d08  в 26.10.2024 11:29:41
+2024-10-26 19:30:24,972 - WARNING - Not Found: /backend/api/v1/product/product//f3fb1635-f530-4a59-a84b-301a8fb0cea3/
+2024-10-26 19:30:48,461 - INFO - Обращение к эндпоинту Товар "list" № 66a46b69-39ca-41bf-bdf9-d9d81d7cc34e  в 26.10.2024 11:30:48
+2024-10-26 19:30:57,378 - INFO - Обращение к эндпоинту Товар "partial_update" № 873b2348-6fa8-46e9-9d1a-27df5ad73724  в 26.10.2024 11:30:57
+2024-10-26 19:30:57,384 - INFO - Товар обновлен: {'id': UUID('19410109-8002-46a5-a515-b7c2214d11a1'), 'created_at': datetime.date(2024, 10, 26), 'updated_at': datetime.date(2024, 10, 26), 'category': 'Продукты', 'name': 'Сливочное масло', 'description': 'Самый дорогой товар во вселенной', 'count': 150, 'price': 77.56}
+2024-10-26 19:30:57,417 - INFO - Обращение к эндпоинту Товар "list" № 0fa876ab-9742-4f84-804a-4a18d51cb950  в 26.10.2024 11:30:57
+2024-10-26 19:33:19,582 - INFO - Обращение к эндпоинту Товар "list" № 52408bee-c9fd-4144-b0ca-63369d477783  в 26.10.2024 11:33:19
+2024-10-26 19:33:59,757 - INFO - Обращение к эндпоинту Товар "list" № a7fa86ec-2737-4f81-9877-4302ce003058  в 26.10.2024 11:33:59
+2024-10-26 19:34:05,021 - INFO - Обращение к эндпоинту Товар "destroy" № fdd1b535-e2d5-42a2-a08b-0338a50bb33f  в 26.10.2024 11:34:05
+2024-10-26 19:34:05,028 - INFO - Товар удален: '<Product: Product object (f3fb1635-f530-4a59-a84b-301a8fb0cea3)>'
+2024-10-26 19:34:05,044 - INFO - Обращение к эндпоинту Товар "list" № 3c5d28c4-43bb-4f31-be0b-d6dcddd893bf  в 26.10.2024 11:34:05
+2024-10-26 19:35:13,199 - INFO - Обращение к эндпоинту Товар "list" № 7d3196b0-5d42-4228-85a6-6cd941dda19c  в 26.10.2024 11:35:13
+2024-10-26 19:53:20,373 - WARNING - Not Found: /favicon.ico
