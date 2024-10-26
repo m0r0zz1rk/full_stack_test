@@ -12,7 +12,17 @@ def product_queryset() -> QuerySet:
 
 class ProductFilter(filters.FilterSet):
     """Класс для фильтрации товаров"""
-    category = name = description = filters.CharFilter(
-        lookup_expr='icontains'
+    category = filters.CharFilter(
+        lookup_expr='icontains',
+        label='Категория товара'
     )
-    count = price = filters.NumberFilter()
+    name = filters.CharFilter(
+        lookup_expr='icontains',
+        label='Наименование товара'
+    )
+    description = filters.CharFilter(
+        lookup_expr='icontains',
+        label='Описание товара'
+    )
+    count = filters.NumberFilter()
+    price = filters.NumberFilter()
