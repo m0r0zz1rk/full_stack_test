@@ -51,8 +51,16 @@
                       md="6"
                       sm="6"
                     >
+                      <v-select
+                        v-if="header.key === 'category'"
+                        :items="productCategories"
+                        item-title="title"
+                        item-value="value"
+                        label="Категория"
+                        v-model="selectedProduct[header.key]"
+                      />
                       <v-text-field
-                        v-if="['category', 'name', 'description'].includes(header.key)"
+                        v-if="['name', 'description'].includes(header.key)"
                         :label="header.title"
                         :loading="piniaStore.loader"
                         v-model="selectedProduct[header.key]"
@@ -176,6 +184,21 @@ export default {
         {
           title: 'Действия',
           key: 'actions'
+        },
+      ],
+      // Возможные категории товаров
+      productCategories: [
+        {
+          title: 'Электроника',
+          value: 'ELECTRONIC'
+        },
+        {
+          title: 'Продукты',
+          value: 'FOOD'
+        },
+        {
+          title: 'Алкоголь',
+          value: 'ALCOHOL'
         },
       ]
     }
