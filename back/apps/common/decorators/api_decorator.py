@@ -56,7 +56,6 @@ def api_logging(
                 return response_utils.bad_request_response(response_text)
             # Кастомные исключения для моделей приложения
             except (
-                SerializeDataError,
                 exceptions['exc_not_exist'],
                 exceptions['exc_info_not_valid'],
                 exceptions['exc_save_error'],
