@@ -55,22 +55,24 @@ def api_logging(
                 app_logger.error(f'{error_text}{response_text}: {repr(e.errors)}')
                 return response_utils.bad_request_response(response_text)
             # Кастомные исключения для моделей приложения
-            except exceptions['exc_not_exist']:
-                response_text = 'Товар не найден'
+            except (
+                SerializeDataError,
+                exceptions['exc_not_exist'],
+                exceptions['exc_info_not_valid'],
+                exceptions['exc_save_error'],
+                exceptions['exc_delete_error']
+            ) as e:
+                if e == exceptions['exc_not_exist']:
+                    response_text = 'Товар не найден'
+                elif e == exceptions['exc_info_not_valid']:
+                    response_text = 'Получены не валидные данные'
+                elif e == exceptions['exc_save_error']:
+                    response_text = 'Ошибка в процессе сохранения товара'
+                else:
+                    response_text = 'Ошибка в процессе удаления товара'
                 app_logger.warning(error_text + response_text)
                 return response_utils.bad_request_response(response_text)
-            except exceptions['exc_info_not_valid']:
-                response_text = 'Получены не валидные данные'
-                app_logger.warning(error_text + response_text)
-                return response_utils.bad_request_response(response_text)
-            except exceptions['exc_save_error']:
-                response_text = 'Ошибка в процессе сохранения товара'
-                app_logger.error(error_text + response_text)
-                return response_utils.bad_request_response(response_text)
-            except exceptions['exc_delete_error']:
-                response_text = 'Ошибка в процессе удаления товара'
-                app_logger.warning(error_text + response_text)
-                return response_utils.bad_request_response(response_text)
+            # Системная ошибка, не попавшая в кастомные исключения и сериализацию
             except Exception:
                 response_text = 'Произошла системная ошибка'
                 app_logger.warning(f'{error_text}{response_text}: {get_traceback()}')
